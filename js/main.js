@@ -130,9 +130,8 @@ $('#hitokoto').click(function () {
 //获取天气
 //请前往 https://www.mxnzp.com/doc/list 申请 app_id 和 app_secret
 //请前往 https://dev.qweather.com/ 申请 key
-//const add_id = "wrknltonr0foslhs"; // app_id
-//const app_secret = "Nlh1c0F6d0ZDU2pDR0J3YVBVbkhudz09"; // app_secret
-const id = "HE2307291612311566";
+const add_id = "eheilzn0vrbntkdn"; // app_id
+const app_secret = "SmRikZAe7plEWLbs6kXetEVtv6r81VRt"; // app_secret
 const key = "407e41212d6145019a7f447ba5a09253" // key
 function getWeather() {
     fetch("https://www.mxnzp.com/api/ip/self?app_id=" + add_id + "&app_secret=" + app_secret)
