@@ -396,21 +396,21 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `
-let title1 = '無名の主页'
+let title1 = '活在当下的主页'
 let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
+ __      _____ ______ ______ ______ _____ __  ___ ______
+|  |    |_   _| _____| _____|_   _||_   _|  \/  | _____|
+|  |      | | | |___ ||_____  | |    | | |  \ / ||_____ 
+|  |      | | | ____|| _____| | |    | | | | /| | _____|
+|  |____ _| |_| |    ||_____  | |   _| |_| |   | ||_____ 
+|_______|_____|_|    |______| |_|  |_____|_|   |_|______|                                                   
 `
 let content = `
 版 本 号：3.4
 更新日期：2022-07-24
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  https://czlifetime.eu.org/
+Github:  https://github.com/LifetimeMax/home/
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
